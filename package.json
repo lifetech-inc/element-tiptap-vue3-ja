@@ -1,6 +1,6 @@
 {
-  "name": "element-tiptap-vue3-fixed",
-  "version": "1.2.2",
+  "name": "@lifetech-inc/element-tiptap-vue3-fixed-ja",
+  "version": "1.0.2",
   "description": "🌸A modern WYSIWYG rich-text editor using tiptap and Element Plus for Vue3",
   "author": "okijhhyu",
   "scripts": {
@@ -10,7 +10,11 @@
     "build:lib": "vite build",
     "lint": "eslint --ext .ts src",
     "lint:fix": "yarn lint --fix",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "major": "npm version major",
+    "minor": "npm version minor",
+    "patch": "npm version patch",
+    "public": "npm publish --access public"
   },
   "main": "./lib/element-tiptap-vue3-fixed.umd.js",
   "module": "./lib/element-tiptap-vue3-fixed.es.js",
@@ -109,10 +113,6 @@
     "vue": ">= 3.0.0"
   },
   "resolutions": {},
-  "bugs": {
-    "url": "https://github.com/okijhhyu/element-tiptap-vue3/issues"
-  },
-  "homepage": "https://github.com/okijhhyu/element-tiptap-vue3",
   "keywords": [
     "editor",
     "wysiwyg",
@@ -131,6 +131,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/okijhhyu/element-tiptap-vue3.git"
+    "url": "git+https://github.com/lifetech-inc/element-tiptap-vue3-ja.git"
   }
 }
